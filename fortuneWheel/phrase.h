@@ -27,7 +27,7 @@ phrase get_new_phrase();
 
 /****************************************
  * allocates the letters to tiles in a  *
- * short phrase                         *
+ * phrase                               *
  *                                      *
  * @param game_board the vector of      *
  *          vectors that makes up the   *
@@ -36,17 +36,5 @@ phrase get_new_phrase();
  *          for the game                *
  * *************************************/
 void allocate_phrase(vector<vector<tile>> &game_board, phrase &phrase_to_guess);
-
-/****************************************
- * allocates the letters to tiles in a  *
- * short phrase                         *
- *                                      *
- * @param game_board the vector of      *
- *          vectors that makes up the   *
- *          game board                  *
- * @param phrase    the phrase to guess *
- *          for the game                *
- * *************************************/
-void allocate_medium_phrase(vector<vector<tile>> &game_board, phrase &phrase_to_guess);
 
 #endif
